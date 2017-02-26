@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\SampleMvc.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
