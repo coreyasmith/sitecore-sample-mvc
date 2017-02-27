@@ -105,6 +105,7 @@
     <Content Include="Views\Shared\Sample MVC Layout.cshtml" />
     <Content Include="Views\Sample\SampleMvcSublayout.cshtml" />
     <Content Include="Views\Sample\SampleMvcInnerSublayout.cshtml" />
+    <Content Include="Views\Sample\SampleMvcRendering.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
