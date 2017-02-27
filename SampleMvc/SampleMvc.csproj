@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\SampleMvc.pubxml" />
+    <Content Include="Views\Shared\Sample MVC Layout.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
