@@ -1,0 +1,80 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Sample MVC</PackageName>
+      <Author>Corey Smith</Author>
+      <Version>1.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>Corey Smith</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Home/{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Layouts/Sample MVC Layout/{74DA640C-E58F-4519-96D2-A5FE07203F3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/content/{8AE1C245-A4FA-46AE-9B35-4FBC15F63169}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Sample/Sample MVC Inner Sublayout/{E2ACB2B1-AF0B-4CC4-99CC-FE43335927C3}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Sample/Sample MVC Rendering/{EFF20AEB-6B0E-4E63-B8B9-7E01D0E78A5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Sample/Sample MVC Sublayout/{5F95EC54-5CE5-433C-97C4-7EC36E78EDC2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Sample Item/__Standard Values/{9DFBB778-512F-4BA7-8293-C01503572D30}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Sample Item/{76036F5E-CBCE-46D1-AF0A-4143F9B557AA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Sample Item/Data/{AE76A034-9491-4B83-99F5-39F227D6FB59}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Sample Item/Data/Text/{A60ACD61-A6DB-4182-8329-C957982CEC74}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Sample/Sample Item/Data/Title/{75577384-3C97-45DA-A847-81B00500E250}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Sample MVC Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/SampleMvc.dll</x-item>
+        <x-item>/Views/Shared/Sample MVC Layout.cshtml</x-item>
+        <x-item>/Views/Sample/</x-item>
+        <x-item>/Views/Sample/SampleMvcInnerSublayout.cshtml</x-item>
+        <x-item>/Views/Sample/SampleMvcRendering.cshtml</x-item>
+        <x-item>/Views/Sample/SampleMvcSublayout.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Sample MVC Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
